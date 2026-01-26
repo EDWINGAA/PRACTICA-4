@@ -17,6 +17,10 @@ def adios():
 def hola():
     return '¡Hola desde develop!'
 
+@app.route('/version')
+def version():
+    return 'Versión lista para producción'
+
 
 # Verifica si este archivo es el programa principal que se está ejecutando
 if __name__ == '__main__':
