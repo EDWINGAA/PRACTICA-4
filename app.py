@@ -13,6 +13,11 @@ def hola_mundo():
 def adios():
     return '¡Adiós! Gracias por visitar mi aplicación.'
 
+@app.route('/hola')
+def hola():
+    return '¡Hola desde develop!'
+
+
 # Verifica si este archivo es el programa principal que se está ejecutando
 if __name__ == '__main__':
     # Inicia el servidor web
